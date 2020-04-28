@@ -20,11 +20,11 @@ git checkout "branch"
 <pre>source /etc/profile</pre>
 
 ## 创建文件夹
-<pre>
+```
 mkdir -p /var/lib/mysql
 mkdir -p /var/logs
 mkdir -p /var/lib/video-ocr/storage
-</pre>
+```
 
 ## 初始化docker swarm并部署
 <pre>docker swarm init</pre>
